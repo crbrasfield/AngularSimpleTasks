@@ -1,0 +1,23 @@
+<div class="container">
+    <button ng-click="alert()">Get an alert</button>
+    <br><br>
+    <input ng-model="message"id="alert-input">
+    <br>
+    <button ng-click="messageAlert()">Alert message of what you just typed.</button>
+    <br><br>
+    <div ng-mouseenter="changeColor()" ng-mouseleave="originalColor()" id="colorChange">Mouseover me to change my color!
+    </div>
+    <br>
+    <p id="p1" ng-click="randomColor()">Click on this text to change the words to a random color!</p>
+    <br><br>
+    <button ng-click="addName()">Click me to add my name below!</button>
+    <div id="names">
+    </div>
+
+    <br><br>
+    <button ng-click="nextFriend()">Click to add a friend to the list</button>
+    <ul id="friendslist">
+        </ul>
+
+
+</div>
